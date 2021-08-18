@@ -514,7 +514,7 @@ body {
 
 .bg-img {
 	position: absolute;
-	background-image: url('img/hero-bg.png');
+	background-image: url('../img/hero-bg.png');
 	background-size: cover;
 	background-position: top left;
 	top: 0;
