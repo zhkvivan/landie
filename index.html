@@ -5,39 +5,59 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+		rel="stylesheet">
 	<title>Document</title>
 </head>
 
 <body>
 	<section class="hero">
+		<div class="bg">
+			<div class="bg-img"></div>
+		</div>
 		<div class="container">
 			<header class="header">
-				<nav class="nav">
-					<ul>
-						<li class="nav-item">Home</li>
-						<li class="nav-item">About</li>
-						<li class="nav-item">Contact</li>
-					</ul>
-				</nav>
-				<img src="#" alt="logo" class="logo">
-				<button class="button main">Buy Now</button>
+				<img src="img/logo.png" alt="logo" class="logo">
+				<div class="header-inner">
+					<input type="checkbox" id="toggle">
+					<label for="toggle" id="toggle-open">☰</label>
+					<label for="toggle" id="toggle-close">✖</label>
+					<nav class="nav">
+						
+						<ul>
+							<li class="nav-item">Home</li>
+							<li class="nav-item">About</li>
+							<li class="nav-item">Contact</li>
+						</ul>
+					</nav>
+					<button class="button button-main">Buy Now</button>
+				</div>
+
 			</header>
-			<div class="content">
+			<div class="hero-content">
 				<h1>Introduce Your Product Quickly & Effectively</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+				<img class="hero-img" src="/img/hero-bg.png" alt="">
+				<p class="p-default p-hero">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+					massa. Cum sociis
 					natoque penatibus et magnis dis parturient montes, nascetur ridiculus.
 				</p>
-				<p>
-					Amus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+				<p class="p-default p-hero">
+					Amus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
+					quis enim.
 				</p>
 				<div class="buttons-wrapper">
-					<button class="button main">Purchase UI Kit</button>
-					<button class="button transparent">Learn More</button>
+					<button class="button button-main">Purchase UI Kit</button>
+					<button class="button button-transparent">Learn More</button>
 				</div>
+
 			</div>
 		</div>
 	</section>
+	<script src="script.js"></script>
 </body>
 
 </html>
